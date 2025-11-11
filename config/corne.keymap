@@ -22,8 +22,8 @@
 // -----------------------------------------------------------------------------------------
                         bindings = <
    &none &kp Q &kp W &kp E &kp R &kp T                 &kp Y &kp U &kp I     &kp O   &kp P    &none 
-   &none &kp A &kp S &kp D &kp F &kp G                 &kp H &kp J &kp K     &kp L   &kp ODIA &none 
-   &none &kp Z &kp X &kp C &kp V &kp B                 &kp N &kp M &kp COMMA &kp DOT &kp ADIA &none 
+   &none &kp A &kp S &kp D &kp F &kp G                 &kp H &kp J &kp K     &kp L   &kp A &none 
+   &none &kp Z &kp X &kp C &kp V &kp B                 &kp N &kp M &kp COMMA &kp DOT &kp A &none 
                &kp LSHFT  &mo 1 &kp SPACE          &kp RET &mo 2 &kp RCTRL
                         >;
                 };
@@ -54,7 +54,7 @@
                         bindings = <
    &none &kp ESC  &kp SQT &kp AT   &kp HASH  &kp DLLR                &kp CARET &kp AMPS  &kp SLASH &kp LPAR &kp RPAR &none
    &none &kp TAB  &kp DQT &kp SEMI &kp COLON &kp LC(E)               &kp GRAVE &kp QMARK &kp BSLH  &kp LBKT &kp RBKT &none
-   &none &kp CAPS &kp AE  &none    &none     &none                   &kp TILDE &kp EXCL  &kp PIPE  &kp LBRC &kp RBRC &none
+   &none &kp CAPS &kp A  &none    &none     &none                   &kp TILDE &kp EXCL  &kp PIPE  &kp LBRC &kp RBRC &none
                                     &kp LCTRL &none &kp LALT       &none      &none     &none
                         >;
                 };
