@@ -22,10 +22,10 @@
 //                   |SHFT | LWR | SPC |    | ENT | RSE | CTRL |
 // -----------------------------------------------------------------------------------------
                         bindings = <
-   &none &kp Q &kp W &kp E &kp R &kp T                 &kp Y &kp U &kp I     &kp O   &kp P           &none 
-   &none &kp A &kp S &kp D &kp F &kp G                 &kp H &kp J &kp K     &kp L   &kp FI_O_UMLAUT &none 
-   &none &kp Z &kp X &kp C &kp V &kp B                 &kp N &kp M &kp COMMA &kp DOT &kp FI_A_UMLAUT &none 
-               &kp LSHFT  &mo 1 &kp SPACE          &kp RET &mo 2 &kp RCTRL
+   &none &kp FI_Q &kp FI_W &kp FI_E &kp FI_R &kp FI_T                 &kp FI_Y &kp FI_U &kp FI_I     &kp FI_O   &kp FI_P           &none 
+   &none &kp FI_A &kp FI_S &kp FI_D &kp FI_F &kp FI_G                 &kp FI_H &kp FI_J &kp FI_K     &kp FI_L   &kp FI_O_UMLAUT &none 
+   &none &kp FI_Z &kp FI_X &kp FI_C &kp FI_V &kp FI_B                 &kp FI_N &kp FI_M &kp FI_COMMA &kp FI_DOT &kp FI_A_UMLAUT &none 
+               &kp LSHFT  &mo 1 &kp FI_SPACE          &kp RET &mo 2 &kp RCTRL
                         >;
                 };
                 lower_layer {
@@ -37,10 +37,10 @@
 //                    | GUI |  x  |  x  |     |  _  |  x  |  0   |
 // -----------------------------------------------------------------------------------------
                         bindings = <
-   &none  &kp TAB &kp HOME &kp UP   &kp END   &none       &kp MINUS &kp N7 &kp N8 &kp N9 &kp BSPC  &none 
-   &none  &kp DEL &kp LEFT &kp DOWN &kp RIGHT &none       &kp PLUS  &kp N4 &kp N5 &kp N6 &kp PRCNT &none 
-   &none  &none   &kp LT   &none    &kp GT    &none       &kp EQUAL &kp N1 &kp N2 &kp N3 &kp ASTRK &none 
-                  &kp LGUI &none    &none                 &kp UNDER &none &kp N0
+   &none  &kp TAB &kp HOME &kp UP   &kp END   &none       &kp FI_MINUS &kp FI_N7 &kp FI_N8 &kp FI_N9 &kp BSPC  &none 
+   &none  &kp DEL &kp LEFT &kp DOWN &kp RIGHT &none       &kp FI_PLUS  &kp FI_N4 &kp FI_N5 &kp FI_N6 &kp FI_PRCNT &none 
+   &none  &none   &kp FI_LT   &none    &kp FI_GT    &none       &kp FI_EQUAL &kp FI_N1 &kp FI_N2 &kp FI_N3 &kp FI_ASTRK &none 
+                  &kp LGUI &none    &none                 &kp FI_UNDER &none &kp FI_N0
                         >;
                 };
 
@@ -53,9 +53,9 @@
 //                    | CTRL |  x  | ALT |   |  x  |  x  |  x  |
 // -----------------------------------------------------------------------------------------
                         bindings = <
-   &none &kp ESC  &kp SQT       &kp AT          &kp HASH  &kp DLLR                &kp CARET &kp AMPS  &kp SLASH &kp LPAR &kp RPAR &none
-   &none &kp TAB  &kp DQT       &kp FI_EURO     &kp COLON &kp LC(E)               &kp GRAVE &kp QMARK &kp BSLH  &kp LBKT &kp RBKT &none
-   &none &kp CAPS &kp FI_A_RING &kp FI_ONE_HALF &none     &kp FI_SECT             &kp TILDE &kp EXCL  &kp PIPE  &kp LBRC &kp RBRC &none
+   &none &kp ESC  &kp FI_SQT       &kp FI_AT          &kp FI_HASH  &kp FI_DLLR                &kp FI_CARET &kp FI_AMPS  &kp FI_SLASH &kp FI_LPAR &kp FI_RPAR &none
+   &none &kp TAB  &kp FI_DQT       &kp FI_EURO     &kp FI_COLON &kp FI_EURO               &kp FI_GRAVE &kp FI_QMARK &kp FI_BSLH  &kp FI_LBKT &kp FI_RBKT &none
+   &none &kp CAPS &kp FI_A_RING &kp FI_ONE_HALF &none     &kp FI_SECT             &kp FI_TILDE &kp FI_EXCL  &kp FI_PIPE  &kp FI_LBRC &kp FI_RBRC &none
                                 &kp LCTRL &none &kp LALT                       &none      &none     &none
                         >;
                 };
